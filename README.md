@@ -21,9 +21,11 @@ The core pipeline executed for every input frame is:
 6. Gradio (for the user interface)
 
 **Project Results and Performance Metrics**
+
 The project successfully implemented three distinct methodologies for Facial Expression Recognition (FER) on the challenging FER-2013 dataset. The results establish a clear performance hierarchy, validating the superiority of modern feature-learning and deep-learning approaches.
 
 **Summary of Achieved Test Accuracy**
+
 The project successfully benchmarked classical and deep learning approaches on the challenging **FER-2013** dataset. The results demonstrate the clear efficacy of feature-based and deep learning pipelines.
 
 | Method | Feature Extraction / Architecture | Classifier | Achieved Test Accuracy | Key Performance Insight |
