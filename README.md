@@ -1,12 +1,10 @@
 **Implemented Models and Techniques**
-
 This project features three distinct machine learning pipelines, allowing for a comprehensive analysis of feature-based vs. end-to-end learning approaches:
 1. Classical Baseline: LBP + K-Nearest Neighbors (KNN)
 2. Feature-Based Approach: HOG + Linear Support Vector Machine (Linear SVM)
 3. Deep Learning Approach: mini-Xception Convolutional Neural Network (CNN)
 
 **Real-Time Evaluation Pipeline**
-
 The final deliverable is an interactive interface (e.g., using Gradio or Pygame) that visualizes predictions from all three models in real-time.
 The core pipeline executed for every input frame is:
 1. Face Detection: Identify the location of the face (e.g., using a lightweight Haar cascade or similar method).
