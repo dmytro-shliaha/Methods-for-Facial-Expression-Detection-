@@ -22,10 +22,10 @@ The core pipeline executed for every input frame is:
 5. OpenCV (for image handling and face detection)
 6. Gradio (for the user interface)
 
-Project Results and Performance Metrics
+**Project Results and Performance Metrics**
 The project successfully implemented three distinct methodologies for Facial Expression Recognition (FER) on the challenging FER-2013 dataset. The results establish a clear performance hierarchy, validating the superiority of modern feature-learning and deep-learning approaches.
 
-Summary of Achieved Test Accuracy
+**Summary of Achieved Test Accuracy**
 The project successfully benchmarked classical and deep learning approaches on the challenging **FER-2013** dataset. The results demonstrate the clear efficacy of feature-based and deep learning pipelines.
 
 | Method | Feature Extraction / Architecture | Classifier | Achieved Test Accuracy | Key Performance Insight |
@@ -34,7 +34,7 @@ The project successfully benchmarked classical and deep learning approaches on t
 | **Feature-Based** | HOG (Histogram of Oriented Gradients) | Linear SVM | **62.3%** | Proved that robust feature engineering can successfully meet the high-performance threshold. |
 | **Classical Baseline** | LBP (Local Binary Pattern) | K-Nearest Neighbors (KNN) | *<30%* | Confirmed the necessity of advanced methods, as performance was **highly unstable** and sensitive to image noise. |
 
-Performance Analysis
+**Performance Analysis**
 1. Mini-Xception CNN and HOG+SVM
 The mini-Xception CNN and the HOG+SVM models successfully met the high performance threshold, achieving accuracies well above the 60% target.
 The CNN pipeline, leveraging extensive data augmentation and a specialized architecture, demonstrated the highest overall accuracy and the best generalization capability.
