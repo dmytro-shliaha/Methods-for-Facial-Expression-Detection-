@@ -34,11 +34,11 @@ The project successfully implemented three distinct methodologies for Facial Exp
 
 The project successfully benchmarked classical and deep learning approaches on the challenging **FER-2013** dataset. The results demonstrate the clear efficacy of feature-based and deep learning pipelines.
 
-| Method | Feature Extraction / Architecture | Classifier | Achieved Test Accuracy | Key Performance Insight |
+| Method | Architecture | Classifier | Achieved Test Accuracy | Key Performance Insight |
 | :--- | :--- | :--- | :---: | :--- |
 | **Deep Learning** | mini-Xception CNN (End-to-End) | Softmax | **65.1%** | Achieved the highest accuracy and stability, essential for real-world application. |
 | **Feature-Based** | HOG (Histogram of Oriented Gradients) | Linear SVM | **62.3%** | Proved that robust feature engineering can successfully meet the high-performance threshold. |
-| **Classical Baseline** | LBP (Local Binary Pattern) | K-Nearest Neighbors (KNN) | *<30%* | Confirmed the necessity of advanced methods, as performance was **highly unstable** and sensitive to image noise. |
+| **Classical Baseline** | LBP (Local Binary Pattern) | K-Nearest Neighbors (KNN) | **<30%** | Confirmed the necessity of advanced methods, as performance was **highly unstable** and sensitive to image noise. |
 
 
 **Performance Analysis**
